@@ -1,3 +1,22 @@
+:root {
+    --clr-whitesmoke: #f5f5f5; /*  whitesmpke */
+    --clr-ocean-blue: #009dc4;
+    --clr-white: #fff;
+    --clr-desert-yellow: #eef083;
+    --clr-desert-text: #483e3e;
+    --clr-forest-green: #228b22; /* forestgreen */
+    --clr-forest-text: #fff;
+    --clr-ice-white: #fff;
+    --clr-ice-text: #483e3e;
+    --clr-view-button-hover: #e0e0e0;
+    --clr-text-general: #483e3e;
+    --clr-border: rgb(119, 119, 236);
+
+    --fs-primary-16px: 1rem; /*  16px */
+    --fs-primary-20px: 1.25rem; /* 20px */
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +25,7 @@
 }
 
 body {
-    background: whitesmoke;
+    background: var(--clr-whitesmoke);
 }
 
 header {
@@ -33,10 +52,9 @@ ul {
 }
 
 li {
-    /* display: inline-block; */
     min-width: 90px;
     min-height: 35px;
-    font-size: 20px;
+    font-size: var(--fs-primary-20px);
     padding: 8px 16px;
     border-radius: 6px;
     cursor: pointer;
@@ -52,26 +70,26 @@ li {
 
  .ocean-list.active,
  .ocean-list:hover {
-    background: #009dc4;
-    color: #fff;
+    background: var(--clr-ocean-blue);
+    color: var(--clr-white);
  }
 
  .desert-list.active,
  .desert-list:hover {
-    background: #eef083;
-    color: #483e3e;
+    background: var(--clr-desert-yellow);
+    color: var(--clr-text-general);
  }
 
  .forest-list.active,
  .forest-list:hover {
-    background: forestgreen;
-    color: #fff;
+    background: var(--clr-forest-green);
+    color: var(--clr-white);
  }
 
  .ice-list.active,
  .ice-list:hover {
-    background: #fff;
-    color: #483e3e;
+    background: var(--clr-ice-white);
+    color: var(--clr-text-general);
  }
 
 
@@ -88,23 +106,22 @@ li {
 }
 
 .view-buttons {
-    font-size: 20px;
+    font-size: var(--fs-primary-20px);
     cursor: pointer;
     text-align: center;
-    color: darkgray;
-}
-
-.portrait-btn {
-    min-height: 100px;
-    min-width: 70px;
-    padding: 2px;
-}
-
-.landscape-btn {
+    color: var(--clr-text-general);
     min-height: 70px;
     min-width: 100px;
     padding: 2px;
+    border: none;
+    background-color: var(--clr-whitesmoke);
 }
+
+.view-buttons:hover {
+    background: var(--clr-view-button-hover);
+}
+
+
 
 
 /* *****   Main   ***** */
@@ -133,7 +150,7 @@ li {
 .grid-images-portrait,
 .grid-images-landscape {
     width: 100%;
-    border: 1px solid rgb(119, 119, 236);
+    border: 1px solid var(--clr-border);
     border-radius: 6px;
     max-height: 4000px; 
     object-fit: cover;
