@@ -1,4 +1,6 @@
 
+
+// Object with the images location and view data
 const images = {
     'Ocean': [
         {
