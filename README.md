@@ -17,7 +17,7 @@ This project showcases an Image Gallery application with the functionality of fi
 
 ## Installation / Download
 
-1. **Clone the Repository**
+ **Clone the Repository**
    ````
    git clone https://github.com/AsparuhT/Gallery-App.git
    ````
