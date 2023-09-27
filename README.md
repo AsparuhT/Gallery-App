@@ -5,7 +5,7 @@ This project showcases an Image Gallery application with the functionality of fi
 ## Table of Contents
 
 - [Features](#features)
-- [Installation / Download](#installation--download)
+- [Installation / Download](#installation--download))
 - [Usage](#usage)
 
 ## Features
