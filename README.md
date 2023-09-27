@@ -15,7 +15,7 @@ This project showcases an Image Gallery application with the functionality of fi
 - **Responsive Design**: Adapts to various screen sizes for optimized user experience.
 - **Lightbox Functionality**: Users can view larger versions of the images by clicking on them.
 
-## Installation / Setup
+## Installation / Download
 
 1. **Clone the Repository**
    ````
