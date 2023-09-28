@@ -24,8 +24,8 @@ This project showcases an Image Gallery application with the functionality of fi
    
 Or just download it as ZIP archive from **Code -> Download ZIP**
 
-If you’re using Visual Studio Code, you can install an extension like “Live Server” to serve the project though the **http://** protocol, eg: **http://127.0.0.1:5500/**
-If the index.html file is laoded directly though the local file path **file://**, eg: **file:///Users/.../images/Ocean-portrait-1.webp**, the images might not load.
+- If you’re using Visual Studio Code, you can install an extension like **Live Server** to serve the project though the **http://** protocol, eg: **http://127.0.0.1:5500/**
+- If the index.html file is laoded directly though the local file path **file://**, eg: **file:///Users/.../images/Ocean-portrait-1.webp**, the images might not load.
 
 ## Usage
 
