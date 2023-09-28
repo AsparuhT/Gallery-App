@@ -14,6 +14,7 @@ This project showcases an Image Gallery application with the functionality of fi
 - **Category Filtering**: Users can filter images based on the selected category and view.
 - **Responsive Design**: Adapts to various screen sizes for optimized user experience.
 - **Lightbox Functionality**: Users can view larger versions of the images by clicking on them.
+- **Image Preloading**: Preloads its images for smoother user experience.
 
 ## Installation / Download
 
